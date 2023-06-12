@@ -20,7 +20,7 @@ class Solution:
                     p += 1
                     t = False
                 if s[q].lower() not in '0123456789qwertyuiopasdfghjklzxcvbnm':
-                    q -=1
+                    q -= 1
                     t = False
                 if t:
                     if s[p].lower() != s[q].lower():
